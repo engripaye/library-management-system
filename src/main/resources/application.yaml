@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url:
+    username: root
+    password: 1234567
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

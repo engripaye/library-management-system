@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url:
+    url: mysql://localhost:3307/library_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
     password: 1234567
 
